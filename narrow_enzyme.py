@@ -64,7 +64,7 @@ plt.figure(figsize=(10, 6))
 
 plt.plot(n_e_tot_range, P_np_results, label=f'$P(n_p = {n_p_value})$')
 
-plt.title(f'Probability $P(n_p)$ vs. Total Enzyme Concentration $n_e^{{tot}}$', fontsize=14)
+# plt.title(f'Probability $P(n_p)$ vs. Total Enzyme Concentration $n_e^{{tot}}$', fontsize=14)
 plt.xlabel('Total Enzyme Concentration, $n_e^{tot}$ (M)', fontsize=12)
 plt.ylabel(f'Probability, $P(n_p = {n_p_value})$', fontsize=12)
 
